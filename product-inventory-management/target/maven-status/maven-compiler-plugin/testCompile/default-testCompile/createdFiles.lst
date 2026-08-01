@@ -1,0 +1,3 @@
+com\warehouse\pim\service\ProductServiceImplTest.class
+com\warehouse\pim\controller\ProductControllerTest.class
+com\warehouse\pim\repository\ProductRepositoryTest.class

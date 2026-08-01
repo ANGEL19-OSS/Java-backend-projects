@@ -1,0 +1,14 @@
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\entity\Product.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\dto\PageResponse.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\service\ProductServiceImpl.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\exception\DuplicateProductNameException.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\exception\ResourceNotFoundException.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\config\OpenApiConfig.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\dto\ProductRequestDTO.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\exception\GlobalExceptionHandler.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\dto\ApiResponse.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\repository\ProductRepository.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\ProductInventoryApplication.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\controller\ProductController.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\dto\ProductResponseDTO.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\product-inventory-management\src\main\java\com\warehouse\pim\service\ProductService.java
