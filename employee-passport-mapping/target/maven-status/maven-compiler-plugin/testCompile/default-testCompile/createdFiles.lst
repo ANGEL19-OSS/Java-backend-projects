@@ -1,0 +1,3 @@
+com\company\epm\controller\EmployeeControllerTest.class
+com\company\epm\repository\EmployeeRepositoryTest.class
+com\company\epm\service\EmployeeServiceImplTest.class
