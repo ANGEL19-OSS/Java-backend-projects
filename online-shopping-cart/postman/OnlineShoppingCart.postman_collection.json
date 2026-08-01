@@ -1,0 +1,220 @@
+{
+	"info": {
+		"_postman_id": "c3d4e5f6-a7b8-9012-cdef-3456789012cd",
+		"name": "Online Shopping Cart API",
+		"description": "Postman Collection for Spring Boot Online Shopping Cart REST APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Add Product to Cart (Valid)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": 1,\n  \"productId\": 2,\n  \"quantity\": 2\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"items"
+					]
+				}
+			}
+		},
+		{
+			"name": "2. Add Product to Cart (Zero Quantity Error 400)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": 1,\n  \"productId\": 2,\n  \"quantity\": 0\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"items"
+					]
+				}
+			}
+		},
+		{
+			"name": "3. Add Product to Cart (Out of Stock Error 400)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"userId\": 1,\n  \"productId\": 4,\n  \"quantity\": 1\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"items"
+					]
+				}
+			}
+		},
+		{
+			"name": "4. View User Cart (Calculated Total)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/user/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"user",
+						"1"
+					]
+				}
+			}
+		},
+		{
+			"name": "5. View User Cart (Invalid User ID 404)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/user/999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"user",
+						"999"
+					]
+				}
+			}
+		},
+		{
+			"name": "6. Update Cart Item Quantity",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"quantity\": 3\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/items/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"items",
+						"1"
+					]
+				}
+			}
+		},
+		{
+			"name": "7. Remove Item from Cart",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/items/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"items",
+						"1"
+					]
+				}
+			}
+		},
+		{
+			"name": "8. Clear User Cart",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/cart/user/1/clear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"cart",
+						"user",
+						"1",
+						"clear"
+					]
+				}
+			}
+		}
+	]
+}
