@@ -1,0 +1,13 @@
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\entity\Student.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\repository\StudentRepository.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\dto\ApiResponse.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\exception\DuplicateEmailException.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\config\OpenApiConfig.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\exception\GlobalExceptionHandler.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\controller\StudentController.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\dto\StudentResponseDTO.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\exception\ResourceNotFoundException.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\service\StudentService.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\StudentManagementApplication.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\dto\StudentRequestDTO.java
+C:\Users\91948\OneDrive\Pictures\Desktop\Java-backend projects\student-management-system\src\main\java\com\college\sms\service\StudentServiceImpl.java

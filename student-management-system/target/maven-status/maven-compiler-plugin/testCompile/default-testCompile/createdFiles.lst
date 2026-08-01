@@ -1,0 +1,3 @@
+com\college\sms\repository\StudentRepositoryTest.class
+com\college\sms\controller\StudentControllerTest.class
+com\college\sms\service\StudentServiceImplTest.class
