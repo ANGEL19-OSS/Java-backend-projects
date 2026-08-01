@@ -1,0 +1,3 @@
+com\college\scr\controller\StudentControllerTest.class
+com\college\scr\repository\StudentRepositoryTest.class
+com\college\scr\service\CourseRegistrationServiceImplTest.class
