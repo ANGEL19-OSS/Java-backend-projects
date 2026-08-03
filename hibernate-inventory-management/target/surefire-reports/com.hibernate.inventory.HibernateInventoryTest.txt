@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.hibernate.inventory.HibernateInventoryTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.875 s -- in com.hibernate.inventory.HibernateInventoryTest
